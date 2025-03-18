@@ -1,0 +1,8 @@
+robotframework-seleniumlibrary
+robotframework-faker
+pyyaml
+rf-googlesheetslibrary==1.4a2
+numpy
+httplib2
+requests
+pyTelegramBotAPI

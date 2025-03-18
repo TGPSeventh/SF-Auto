@@ -1,0 +1,16 @@
+applicationConfig:
+  googleSheets:
+    Upfront                                                          : "1l1JWbs8pHKjgKzShzFHLEsABNoaYyo3BHrSpIyktbsc"
+    verifyloginfunctionality:
+      dateTime                                                       : "0"
+      emptyusernameandpassword                                       : "1"
+      emptyusernameandvalidpassword                                  : "2"
+      validusernameandemptypassword                                  : "3"
+      validusernameandinvalidpassword                                : "4"
+      invalidusernameandvalidpassword                                : "5"
+      invalidusernameandinvalidpassword                              : "6"
+      validusernameandvalidpassword                                  : "7"
+    verifiyadduserfunctionality:
+      addupfrontadmin                                                : "2"
+      dateTime                                                       : "0"
+      hovertoadminlistnavigation                                     : "1" 

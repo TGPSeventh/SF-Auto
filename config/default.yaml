@@ -1,0 +1,21 @@
+# See https://www.lambdatest.com/capabilities-generator/
+common_default:
+  ENV                                       : "DEV"
+  LOCALE                                    : "en_UK"
+
+common_envVars:
+  - "ENV"
+
+# ====================================================================================
+# | Environment Variables
+# |  - Sets the default value for the below argument variables
+# |    making them optional variable on run.
+# |  - This values will overriden by the default setting under config of a product.
+common_optionalVars:
+  - "LOCALE"
+
+
+browser: "chrome"
+headless: true
+timeout: 10
+base_url: "https://brighten--losqar2.sandbox.my.salesforce.com/"
