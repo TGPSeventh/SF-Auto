@@ -8,9 +8,16 @@
 # * permission of RAM GROUP
 # ***************************************************************************************************
 
-
 *** Settings ***
 # |-------------------------------------------------------------------------------------
 # | Import Library
 # | For Selenium refer to https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#library-documentation-top for the Keyword Documentation.
-Library                                                              SeleniumLibrary
+Resource                                                   selenium/selenium.robot
+
+# |--------------------------------------------------------------------------------------
+# | Import RequestLibrary
+Resource                                                   googlesheetslibrary/googlesheetslibrary.robot
+
+# |--------------------------------------------------------------------------------------
+# | Import RequestLibrary
+Resource                                                   telegramlibrary/telegramlibrary.robot

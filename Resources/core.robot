@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 # ***************************************************************************************************
-# * Copyright (C) 2023 IT Americano Inc.
+# * Copyright (C) 2025 RAM GROUP
 # *
-# * This file is part of the Upfront Web Automation Project.
+# * This file is part of the SF Web Automation Project.
 # *
-# * upfront web automation can not be copied and/or distributed without the express
-# * permission of IT Americano Inc.
+# * SF web automation can not be copied and/or distributed without the express
+# * permission of RAM GROUP
 # ***************************************************************************************************
+
 *** Settings ***
 
 # |--------------------------------------------------------------------------------------
@@ -22,6 +23,7 @@ Library                                                    FakerLibrary
 Library                                                    random
 Library                                                    String
 Library                                                    DateTime
+Library                                                    BuiltIn
 
 # |--------------------------------------------------------------------------------------
 # | Import Resources: 
