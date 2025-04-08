@@ -13,8 +13,10 @@
 # |
 app:
   user:
-    sf_loginid: "gensonpatrick.trinidad@ram.com.au.envqa"
+    sf_email: "gensonpatrick.trinidad@ram.com.au.envqa"
     sf_password: "P@ssw0rd1234"
+    sf_inv_email: "gensonpatrick.trinidad@ram.com.au"
+    sf_inv_pw: "P@ssw0rd"
     # sf_mfa_secret: "BASE32SECRETKEY"
     refreshToken: ""
     details:

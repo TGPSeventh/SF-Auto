@@ -1,12 +1,25 @@
 SF:
   forms:
     login:
-      username:                  "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(3) > :nth-child(2) > :nth-child(2)"
-      password:                  "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(5)"
-      btnlogin:                  "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(7)"
-      login_error:               "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(2)"
+      loginpage:                    "https://brighten--losqar2.sandbox.my.salesforce.com/"
+      forgotpwurl:                    "https://brighten--losqar2.sandbox.my.salesforce.com/"
+      homepage:                    "https://brighten--losqar2.sandbox.my.salesforce.com/"
+      sf_logo:                      "css:#left > #wrap > #main > #wrapper > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+      lbl_login_error:              "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(2)"
+      when_error_msg:
+        txt_username_error:         "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(3) > :nth-child(2) > :nth-child(2)"
+        txt_password_error:         "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(5)"
+        btn_login_error:            "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(7)"
+        chk_rememberme_error:       "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(8) > #rememberUn"
+        a_forgotpw_error:           "css:#left > #wrap > #main > #wrapper > #content > #theloginform > :nth-child(2) > :nth-child(1)"
+      txt_username:                 "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(2) > :nth-child(2) > :nth-child(2)"
+      txt_password:                 "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(4)"
+      btn_login:                    "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(6)"
+      chk_rememberme:               "css:#left > #wrap > #main > #wrapper > #content > #theloginform > #login_form > :nth-child(7) > #rememberUn"
+      a_forgotpw:                   "css:#left > #wrap > #main > #wrapper > #content > #theloginform > :nth-child(2) > :nth-child(1)"
+      
     home:
-      env_qa_id:                 "css:#oneHeader > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+      env_id:                 "css:#oneHeader > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
       env_logout:                "css:#oneHeader > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
 
 

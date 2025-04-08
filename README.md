@@ -4,6 +4,9 @@ Project dependencies
 - robotframework-seleniumlibrary
 - robotframework-faker
 
+## To Start Env
+Use `source venv/bin/activate`
+
 ** Install project dependencies **
 git `pip install -r requirements.txt --use-deprecated=legacy-resolver`
 
@@ -16,7 +19,7 @@ Use `export TG_REPORT=True`
 
 Use `export TG_REPORT=Full` to display full result in the Telegram
 
-channel_id: `@UpfrontAuto`
+channel_id: `@SFAuto`
 
 ## Run Scipt
 git `robot -d result -i upfront suites/`

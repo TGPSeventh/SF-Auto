@@ -1,12 +1,14 @@
 *** Settings ***
 Resource                ../resources/core.robot
 
-Force Tags              test_automation
+Force Tags              test_sf_automation
 
 Suite Setup             Run Keywords
-...                     Go to Site Home Page
+...                     Go to login Page
 ...                     Announce Test Launch
 
 Suite Teardown          Run Keywords
 ...                     End Announcement
 ...                     Send Test Report
+
+
