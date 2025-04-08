@@ -22,7 +22,7 @@ Use `export TG_REPORT=Full` to display full result in the Telegram
 channel_id: `@SFAuto`
 
 ## Run Scipt
-git `robot -d result -i upfront suites/`
+git `robot -d result -i SF-AUTO testsuites/`
 
 ## To Run a Singular Test Case
 ## Exact Match: The name you provide after --test must match the test case name exactly, including spaces and capitalization.
