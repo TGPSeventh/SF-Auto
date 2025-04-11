@@ -43,9 +43,12 @@ Resource                                                   keywords/template.rob
 # | Import Validator Keywords
 Resource                                                   keywords/validators.robot
 
+# |----------------- ---------------------------------------------------------------------
+# | Import Custom Py Codes
+Library                                                   keywords/rand.py
+
 # |--------------------------------------------------------------------------------------
 # | Import Resources 
 Variables                                                  ../config/locators.yaml
 Variables                                                  ../config/keypress.yaml
 Variables                                                  ../config/creds.yaml
-

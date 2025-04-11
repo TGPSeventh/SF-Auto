@@ -96,22 +96,22 @@ Input Element Values
         ...                                                          ${locator2}
         ...                                                          ${locator3}
     
-    ${value}                                                         FakerLibrary.Name
-    ${value2}                                                        FakerLibrary.User Name
-    ${value3}                                                        FakerLibrary.Password
+    ${name}                                                          generate_random_name
+    ${email}                                                         generate_random_email
+    ${password}                                                      generate_random_password    12
 
     Input Text                                                       ${locator1}
-        ...                                                          ${value}
+        ...                                                          ${name}
     Input Text                                                       ${locator2}
-        ...                                                          ${value2}
+        ...                                                          ${email}
     Input Text                                                       ${locator3}
-        ...                                                          ${value3}
+        ...                                                          ${password}
 
 Search User List
     [Documentation]                                                  Inputs Multiple Text String
     [Arguments]                                                      ${locator1}
     
-    ${value}                                                         FakerLibrary.Name
+    ${name}                                                          generate_random_name
 
     Input Text                                                       ${locator1}
-        ...                                                          ${value}
+        ...                                                          ${name}

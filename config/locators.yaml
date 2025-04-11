@@ -19,8 +19,8 @@ SF:
       a_forgotpw:                   "css:#left > #wrap > #main > #wrapper > #content > #theloginform > :nth-child(2) > :nth-child(1)"
       
     home:
-      env_id:                 "css:#oneHeader > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
-      env_logout:                "css:#oneHeader > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+      env_id:                       "css:#oneHeader > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+      env_logout:                   "css:#oneHeader > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
 
 
 
